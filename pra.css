@@ -1,0 +1,127 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  background-color: black;
+}
+
+.bgimg-1{
+  background-image: url("laptop2.jpg");
+  position: relative;
+  opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+}
+
+.caption {
+  position: absolute;
+  text-align: center;  
+  left: 0;                          /*no benifit*/
+  top: 40%;
+  width: 100%;
+  color: #ffffcc;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  margin: 5px;
+  font-size: 25px;
+  letter-spacing: 10px;
+ 
+}
+ .border
+ {
+  border-color: red;
+ 	text-transform: uppercase;
+ }
+.centered {
+  position: absolute;
+  text-align: center;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: #ebebe0;
+  font-size: 25px; 
+}
+.nav_top
+{
+	margin-top: 1%;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+.nav_color
+{
+	 background: linear-gradient(90deg,#999966,#260d0d);
+}
+
+.below_text
+{
+	font-style: bold;
+	color:  #ffecb3;
+	margin: 5px;
+	margin-left: 10px;
+	border: 2px solid white;
+	position: absolute;
+}
+.btn-secondary
+{
+ 	background-color: #996633;
+}
+.btn-secondary:hover
+{
+ 	background-color: #999966;
+}
+.buttn
+{  
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+.buttn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background-color: #999966;
+  z-index: -1;
+  transition: 0.8s;
+}
+.buttn1
+{
+  color: white;
+}
+.buttn1:hover
+{
+  color: #260d0d;
+}
+.buttn1::before
+{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+.buttn1:hover::before
+{
+  height: 180%;
+}
+a:hover
+{
+	text-decoration: none;
+	color: #ebebe0;
+}
+.form_page
+{
+	color: #260d0d;
+}
