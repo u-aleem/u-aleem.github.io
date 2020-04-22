@@ -6,8 +6,8 @@ body
 }
 .background
 {
-    background-color: #020617;
-    background-position: center center;
+	background-color: #020617;
+	background-position: center center;
     background-size: cover;
     background-position: 100%;
     background-repeat: repeat;
@@ -209,3 +209,8 @@ section
 		padding-top: 0vh;
 	}
 }
+
+				/*RAIN*/
+				
+
+
