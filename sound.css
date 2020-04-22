@@ -2,12 +2,12 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background-color: #020617;
+	background-color: #020617 !important;
 }
 .background
 {
-	background-color: #020617;
-	background-position: center center;
+    background-color: #020617;
+    background-position: center center;
     background-size: cover;
     background-position: 100%;
     background-repeat: repeat;
@@ -209,8 +209,3 @@ section
 		padding-top: 0vh;
 	}
 }
-
-				/*RAIN*/
-				
-
-
