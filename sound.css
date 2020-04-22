@@ -2,6 +2,7 @@ body
 {
 	margin: 0;
 	padding: 0;
+	background-color: #020617;
 }
 .background
 {
@@ -9,9 +10,9 @@ body
 	background-position: center center;
     background-size: cover;
     background-position: 100%;
-    background-repeat: repeat;/*
+    background-repeat: repeat;
     min-height: 100vh;
-    max-height: 999px;*/
+    max-height: 999px;
     overflow: hidden;
     position: relative;
     width: 100%;
