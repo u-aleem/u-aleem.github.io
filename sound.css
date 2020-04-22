@@ -26,7 +26,7 @@ body
 {
 	color: white;
 	background-color: white;
-	background-image: url('menu.svg');
+	background-image: url('menu.svg') !important;
 }				
 .top_nav
 {
